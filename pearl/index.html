@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>パール染色</title>
+    <meta name="Keywords" content="パール染色,京都,染色,手作業">
+    <meta name="Description" content="パール染色は、京都府丹波地方に位置し、水性、油性の顔料プリントに特化したプリント工場です。">
+    <meta name="copyright" content="Copyright (C) 2016 Pearl senshoku. All Rights Reserved.">
+    <meta property="og:title" content="パール染色"/>
+    <meta property="og:description" content="パール染色は、京都府丹波地方に位置し、水性、油性の顔料プリントに特化したプリント工場です。"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="315"/>
+    <!--<link rel="shortcut icon" href="image/favicon.ico">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- CSS
+   ================================================== -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="common/css/reset.css">
+    <link rel="stylesheet" href="common/css/jquery.simplyscroll.css">
+    <link rel="stylesheet" href="common/css/animate.css">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Javascript
+    ================================================== -->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <![endif]-->
+</head>
+<body>
+
+<!--[if lt IE 10]>
+<div id="page" class="site ie9">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<!--<![endif]-->
+
+<!-- =========== main content ============ -->
+
+
+<section class="header">
+    <div class="container container__header ">
+        <img class="pull-left logo-img" src="common/img/logo.png"/>
+        <ul class="nav-top pull-right">
+            <li><a  class="active href="index.html">TOP</a></li>
+            <li><a href="page-01/index.html">企業情報</a></li>
+            <li><a href="page-02/index.html">実績紹介</a></li>
+            <li><a href="page-03/index.html">設備紹介</a></li>
+            <li><a href="page-04/index.html">職人メッセージ</a></li>
+            <li><a href="page-05/index.html"  class="nav-top__li">お問い合わせ</a></li>
+        </ul>
+    </div>
+    <div class="top-banner">
+        <img class="visual-left-img" src="img/visual-left.png">
+        <img class="visual-right-img" src="img/visual-right.png">
+    </div>
+</section>
+
+<section class="aboutUs">
+    <div class="container container__aboutUs">
+        <img src="img/aboutUs-title.png">
+        <p class="aboutUs__txt pull-right col-sm-7">
+            説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文
+            が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入り
+            ます。説明文が入ります。説明文が入ります。<br><br>
+            説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文
+            が入ります。説明文が入ります。説明文が入ります。説明文が入ります。<br><br>
+            説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文
+            が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入り
+            ます。説明文が入ります。
+        </p>
+        <img class="aboutUs-img" src="img/aboutUs-img.png"/>
+    </div>
+</section>
+
+<section class="works">
+    <img src="img/works-title.png">
+        <ul   class="scroller-img">
+            <li>
+                <div class="pentagon1"></div>
+            </li>
+            <li>
+                <div class="pentagon2"></div>
+            </li>
+            <li>
+                <div class="pentagon3"></div>
+            </li>
+            <li>
+                <div class="pentagon4"></div>
+            </li>
+            <li>
+                <div class="pentagon5"></div>
+            </li>
+            <li>
+                <div class="pentagon6"></div>
+            </li>
+
+        </ul>
+    <ul  class="scroller-img scroller-img-below">
+        <li>
+            <div class="pentagon1"></div>
+        </li>
+        <li>
+            <div class="pentagon2"></div>
+        </li>
+        <li>
+            <div class="pentagon3"></div>
+        </li>
+        <li>
+            <div class="pentagon4"></div>
+        </li>
+        <li>
+            <div class="pentagon5"></div>
+        </li>
+        <li>
+            <div class="pentagon6"></div>
+        </li>
+    </ul>
+</section>
+
+<section class="access">
+    <div class="container">
+        <div class="col-sm-4">
+            <img class="access-img" src="img/access-title.png"/>
+
+            <p>
+                <span>パール染色(株)</span>
+                〒622-0052　京都府南丹市園部町黒田中河原20<br>
+                0771-62-1009<br>
+                00000@email.com
+            </p>
+
+        </div>
+        <div class="col-sm-8" id="map"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: -34.397, lng: 150.644},
+                    zoom: 8
+                });
+            }
+        </script>
+    </div>
+</section>
+
+
+<button onclick="topFunction()" id="topbtn" class="top" title="Go to top"><img src="img/scrollTop.png"/></button>
+<script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("topbtn").style.display = "block";
+        } else {
+            document.getElementById("topbtn").style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+</script>
+<section class="copyright">
+    <p>
+        Copyright &copy 2016 Pearl senshoku. All Rights Reserved.
+    </p>
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABVIue-ZF2hhvZNC6JdXoJtP3tcM6SzDA&callback=initMap" async defer></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYQcvegubeG_OyDA2po7Nqurf7j9vMs9U&callback=initMap&language=ja&region=JP" async defer></script>-->
+<!--[if lt IE 10]><!-->
+<!--<script src="js/vendor/bootstrap.min.js"></script>-->
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+<script type="text/javascript" src="common/js/jquery-1.9.1.min.js"></script>
+<!--<![endif]-->
+
+<!--[if gt IE 9]>
+<script type="text/javascript" src="common/js/jquery-3.1.0.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="common/js/jquery.simplyscroll.min.js"></script>
+<script type="text/javascript" src="common/js/wow.min.js"></script>
+<script type="text/javascript" src="common/js/main.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+
+</body>
+</html>

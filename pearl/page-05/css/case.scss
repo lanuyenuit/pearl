@@ -1,0 +1,170 @@
+@import "../../scss/mixin";
+
+.case-main{
+    padding: 10px 0 0 0;
+    margin-left: 135px;
+    .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 60px;
+        .col-sm-6{
+            width: initial;
+        }
+    }
+
+}
+
+.case-banner {
+    background-image: url("../img/case-banner.png");
+    background-position: inherit;
+    max-width: 100%;
+    height: 370px;
+    background-size: cover;
+    position: relative;
+    background-position-x: center;
+    .sub-banner {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+}
+
+.pentagon1 {
+    background: url("../../img/works-img-1.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;
+    float: left;
+}
+
+.pentagon2 {
+    background: url("../../img/works-img-14.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;
+    float: left;
+}
+
+.pentagon3 {
+    background: url("../../img/works-img-3.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;;
+    float: left;
+}
+
+.pentagon4 {
+    background: url("../../img/works-img-4.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;
+    float: left;
+}
+
+.pentagon5 {
+    background: url("../../img/works-img-5.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;
+    float: left;
+}
+.pentagon6 {
+    background: url("../../img/works-img-12.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;;
+    float: left;
+}
+.pentagon6 {
+    background: url("../../img/works-img-7.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;
+    float: left;
+}
+.pentagon7 {
+    background: url("../../img/works-img-4.png") no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+    height: 400px;
+    width: 365px;;
+    float: left;
+}
+
+.pentagon1, .pentagon2, .pentagon3, .pentagon4, .pentagon5, .pentagon6, .pentagon7 {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.case-bottom{
+    position: relative;
+    padding-bottom: 250px;
+    padding-top: 250px;
+
+
+    .aboutUs-img{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        width: 13%;
+    }
+
+    .txt-bottom{
+        text-align: center;
+        padding-top: 120px;
+    }
+
+}
+
+.case-txt-color{
+    color: #b4b4b4;
+}
+
+.case-img{
+    position: relative;
+    .case-sub-img-1{
+        position: absolute;
+        top: 91%;
+        right: 6%;
+    }
+    .case-sub-img-2{
+        position: absolute;
+        top: 91%;
+        right: 74%;
+    }
+    .case-sub-img-3{
+        position: absolute;
+        top: 91%;
+        right: 6%;
+    }
+}
+
+.case-txt-1{
+    padding-top: 65px;
+    padding-left: 100px;
+}
+
+.case-txt{
+    padding-top: 100px;
+    padding-right: 60px;
+
+}
+
+
+.col-sm-12{
+    .col-sm-6{
+             color: #666666;
+             line-height: initial;
+    }
+}
+
+

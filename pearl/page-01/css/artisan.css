@@ -1,0 +1,44 @@
+.artisan-main {
+  min-height: 900px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 200px;
+  margin-left: 178px;
+  padding-top: 80px; }
+  .artisan-main .artisan-bkg {
+    padding-right: 0;
+    padding-left: 0; }
+
+.artisan-banner {
+  background-image: url("../img/artisan-banner.jpg");
+  background-position: inherit;
+  max-width: 100%;
+  height: 370px;
+  background-size: cover;
+  position: relative;
+  background-position-x: center; }
+  .artisan-banner .sub-banner {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.artisan-content {
+  position: relative;
+  z-index: 10;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: initial;
+  color: #7d7d7d; }
+
+.artisan-content-img {
+  position: absolute;
+  z-index: 1;
+  right: 200px;
+  top: 87%; }
+
+.container-artisan-content .artisan-title-img {
+  margin-bottom: 60px;
+  display: flex; }
+
+/*# sourceMappingURL=artisan.css.map */

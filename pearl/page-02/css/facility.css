@@ -1,0 +1,36 @@
+.facility-banner {
+  background-image: url("../img/facility-banner.jpg");
+  background-position: inherit;
+  max-width: 100%;
+  height: 520px;
+  background-size: cover;
+  position: relative;
+  background-position-x: center; }
+  .facility-banner .sub-banner {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.facility-main {
+  padding-top: 80px;
+  padding-bottom: 100px; }
+  .facility-main .container__facility img {
+    max-width: 100%;
+    padding-bottom: 85px; }
+  .facility-main .container__facility .facility-txt {
+    line-height: initial; }
+    .facility-main .container__facility .facility-txt b {
+      font-weight: bold;
+      color: #666666; }
+
+.txt-color {
+  color: #666666; }
+
+.facility-main-3 {
+  height: 50%; }
+
+.hr-line {
+  color: #00a849; }
+
+/*# sourceMappingURL=facility.css.map */
